@@ -1,0 +1,101 @@
+/* ===== ESTILO GENERAL ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* fondo blanco */
+    color: #2c3e50;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #f0f8ff; /* azul muy claro tipo cielo */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* TITULOS */
+h1 {
+    text-align: center;
+    color: #4da6ff;
+}
+
+h2 {
+    color: #3399ff;
+    border-bottom: 2px solid #cce6ff;
+    padding-bottom: 5px;
+}
+
+/* FOTO PERFIL */
+.profile-pic {
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #cce6ff;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #cce6ff;
+    text-align: left;
+    padding: 10px;
+    width: 35%;
+}
+
+td {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f9ff;
+}
+
+/* MAPA */
+.map-container {
+    text-align: center;
+    margin: 25px 0;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* VIDEO */
+.video-container {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* BOTON */
+.btn-inicio {
+    display: block;
+    text-align: center;
+    background-color: #66b3ff;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-inicio:hover {
+    background-color: #3399ff;
+}
